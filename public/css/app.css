@@ -1,0 +1,76 @@
+/* Révision Étudiants – styles complémentaires à Bootstrap 5 */
+:root {
+    --revision-primary: #1f3a8a;
+    --revision-secondary: #4f46e5;
+}
+
+.navbar-revision {
+    background: linear-gradient(90deg, var(--revision-primary), var(--revision-secondary));
+}
+
+.hero {
+    background: linear-gradient(135deg, var(--revision-primary) 0%, var(--revision-secondary) 100%);
+}
+
+.hero-icon {
+    font-size: 11rem;
+    opacity: 0.85;
+}
+
+.carte-fonction {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.carte-fonction:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 1.25rem rgba(31, 58, 138, 0.15) !important;
+}
+
+.etape {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: var(--revision-primary);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+/* Contenu d'un cours : lisible, sauts de ligne conservés */
+.contenu-cours {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    max-width: 75ch;
+}
+
+/* Quiz */
+fieldset[data-question] legend {
+    float: none;
+    width: auto;
+}
+
+.reponse-correcte {
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.reponse-incorrecte {
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.score-cercle {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 0.5rem solid currentColor;
+    font-weight: 700;
+    font-size: 2rem;
+}
