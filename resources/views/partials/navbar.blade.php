@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark navbar-revision shadow-sm">
     <div class="container">
         <a class="navbar-brand fw-bold" href="{{ route('accueil') }}">
-            <i class="bi bi-mortarboard-fill me-2"></i>Révision Étudiants
+            <i class="bi bi-mortarboard-fill me-2"></i>ilmify
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
                 aria-controls="menuPrincipal" aria-expanded="false" aria-label="Afficher le menu">
